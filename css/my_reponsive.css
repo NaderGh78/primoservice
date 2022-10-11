@@ -1,0 +1,842 @@
+@media only screen and (max-width: 991px) {
+
+    /*=========================== start style navbar ==================================*/
+
+    .preloader .counter {
+        font-size: 20vmin;
+    }
+
+    .preloader .rotateImg img {
+        width: 75px;
+    }
+
+    .preloader::before {
+        font-size: 16vmin;
+    }
+
+    .marquee {
+        width: 68vmin;
+        margin-left: 14vmin;
+        margin-top: 10px;
+    }
+
+    .marquee span {
+        font-size: 3vmin;
+    }
+
+    .marquee span strong {
+        font-size: 3vmin;
+    }
+
+    .home_main_content {
+        overflow: hidden;
+    }
+
+    .home_main_content .noPadding {
+        padding: 0 !important;
+    }
+
+    .main_navbar .navbar-brand img {
+        width: 19vmin !important;
+    }
+
+    .main_navbar .links_list {
+        margin-left: 5px !important;
+        margin-top: 65px;
+        border: none !important;
+        margin-bottom: 210px;
+        background-color: transparent !important;
+    }
+
+    .about_us .home_main_content ul.links_list li a.nav-link,
+    .contact_us .home_main_content ul.links_list li a.nav-link,
+    .services .home_main_content ul.links_list li a.nav-link {
+        color: #fff;
+    }
+
+    .home .home_main_content ul.links_list li a.nav-link.color_active {
+        color: #fff !important;
+    }
+
+    .home_main_content ul.links_list li a.nav-link.color_active {
+        color: #293180 !important;
+    }
+
+    .home .links_list li.first_active a.nav-link {
+        color: #293180 !important;
+    }
+
+    .home_main_content .links_list .nav-link {
+        font-size: 6vmin;
+    }
+
+    .main_navbar .links_list li {
+        line-height: 1;
+    }
+
+    .main_navbar .smLinks li:first-child {
+        margin-right: 2vmin !important;
+    }
+
+    .main_navbar .links_list .desplay_icon {
+        display: inline !important;
+    }
+
+    .main_navbar .smLinks li a {
+        font-size: 5vmin;
+    }
+
+    .home_main_content .main_navbar nav {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
+    .home_main_content .main_navbar nav .navbar-brand {
+        position: absolute;
+        left: 15px;
+    }
+
+    .home_main_content .main_navbar .right_navbar_content {
+        width: 89vmin;
+        margin-left: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
+        font-size: 4vmin;
+    }
+
+    .right_navbar_content .quote_link a {
+        padding: 2px 8px !important;
+        border-radius: 7px !important;
+    }
+
+    .home_main_content .main_navbar .right_navbar_content .slinkIcon ul.smLinks {
+        margin-left: 10px;
+    }
+
+    /*start style the navbar button*/
+    .navbar-light .navbar-toggler {
+        position: absolute;
+        right: 10px;
+        padding: 7px;
+        color: #fff !important;
+        border: none !important;
+        outline: none;
+        z-index: 11
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: none;
+        line-height: 1.5;
+    }
+
+    .navbar-toggler-icon i {
+        font-size: 33px;
+        vertical-align: middle;
+    }
+
+    .navbar-toggler-icon i.icofont-close {
+        font-size: 33px;
+        font-weight: bold;
+    }
+
+    .main_navbar .navbar-collapse {
+        position: fixed;
+        top: -25px;
+        background-color: #f8a12e;
+        width: 100%;
+        z-index: 8;
+        overflow: hidden;
+        text-align: justify;
+    }
+
+    .main_navbar .navbar-collapse .quote_link {
+        display: block !important;
+        border: 2px solid #fff;
+        margin-top: 171px;
+        width: 80%;
+        border-radius: 9px;
+        text-align: center;
+    }
+
+    .main_navbar .navbar-collapse .marquee {
+        display: block !important;
+        width: 68vmin;
+        margin-left: 8vmin;
+    }
+
+    .main_navbar .navbar-collapse img {
+        display: block !important;
+        position: absolute;
+        top: 34%;
+        right: -13vmin;
+        width: 25vmin;
+    }
+
+    /*=========================== end style navbar ====================================*/
+
+    /* START INDEX ========================================*/
+
+    .mid_img img {
+        display: none;
+    }
+
+    .home .home_main_content img.sparks {
+        bottom: 2vw;
+        width: 20vmin;
+    }
+
+    .home .home_main_content img.outil_banner {
+        top: 7vmin !important;
+        width: 97vw !important;
+        right: 0 !important;
+    }
+
+    .home .home_main_content img.blue_ring {
+        top: 74%;
+        width: 31vw;
+    }
+
+    .home .home_bottom_content .home_row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .our_phones {
+        width: 100%;
+        font-size: 3vmin;
+        margin: 24px auto 0 !important;
+        text-align: left !important;
+    }
+
+    .our_phones span {
+        font-size: 3vmin;
+    }
+
+    .home_main_content .we_make {
+        margin-top: 10px;
+    }
+
+    .home_main_content .we_make h2 {
+        font-size: 15vw;
+    }
+
+    .home_main_content .we_make h5 {
+        width: 100%;
+        text-align: left !important;
+        font-size: 4vmin;
+    }
+
+    .home_main_content .we_make img {
+        width: 13%;
+        top: 19%;
+        left: 61%;
+    }
+
+    .first_master_img {
+        position: relative;
+        background: red;
+        width: 100%;
+        height: 400px;
+    }
+
+    .first_master_img img {
+        position: absolute !important;
+        right: -15px;
+        width: 275px !important;
+    }
+
+    .home_main_content .blue_ring img {
+        position: relative;
+        top: -90px;
+        width: 100px;
+    }
+
+    .home_main_content .our_mission {
+        overflow: hidden;
+        margin-top: 130px;
+    }
+
+    .home .home_main_content .our_mission {
+        margin-top: 0;
+        margin-bottom: 125px;
+    }
+
+    .home .home_main_content .our_mission .colum_dir {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .home_main_content .our_mission_statment {
+        width: 90vw;
+        height: 90vw;
+        margin: 40px auto;
+    }
+
+    .home_main_content .our_mission_statment img {
+        width: 14%;
+    }
+
+    .home_main_content .our_mission_statment .our_mission_desc h2 {
+        font-size: 7vw;
+    }
+
+    .home_main_content .our_mission_statment .our_mission_desc p {
+        font-size: 4vw;
+        line-height: 1.2;
+    }
+
+    .home_main_content .our_mission_statment .our_mission_desc {
+        width: 60%;
+    }
+
+    .home_main_content .our_mission .mid_img {
+        top: 33px;
+        left: 65%;
+    }
+
+    .home_main_content .our_mission .our_philosophy_content {
+        position: static;
+        width: 100%;
+        margin: auto;
+    }
+
+    .home_main_content .our_mission .our_philosophy_content h2 {
+        font-size: 8vw;
+    }
+
+    .home_main_content .our_mission .our_philosophy_content ul li {
+        line-height: 1.2 !important;
+        font-size: 4.5vw !important;
+    }
+
+    .home_main_content .service_repair {
+        margin-top: 24px;
+    }
+
+    .home_main_content .service_repair .repair img {
+        top: -23px;
+        left: 5vw;
+        width: 50px;
+    }
+
+    .home_main_content .service_repair .major img {
+        top: 5px;
+        right: 4px;
+        width: 59px;
+    }
+
+    .home_main_content .our_carage .master_img img {
+        width: 65vmin;
+    }
+
+    .home_main_content .our_carage {
+        margin-top: 50px;
+        margin-bottom: 11px;
+    }
+
+    .home_main_content .our_carage img.sparks {
+        top: 27%;
+        width: 80px;
+    }
+
+    .home_main_content .our_carage img.triangle {
+        left: 33%;
+        width: 35vmin;
+        top: -19px;
+    }
+
+    .home_main_content .our_carage .our_carage_quote {
+        top: 0;
+        left: -7vmax;
+        padding: 0 7px;
+        border-radius: 7px;
+    }
+
+    .home_main_content .our_carage .our_carage_quote a {
+        font-size: 13px;
+    }
+
+    .home_main_content .service_repair .major h2 {
+        font-size: 6vw;
+    }
+
+    .home_main_content .service_repair .repair h2 {
+        font-size: 6vw;
+    }
+
+    .home_main_content .service_repair div:nth-child(3) h2 {
+        font-size: 25px;
+    }
+
+    /*    bootom content*/
+    .home .home_bottom_content {
+        margin-top: 0 !important;
+    }
+
+    .home .home_bottom_content .left_content {
+        height: 96vw !important;
+        background-size: 83% !important;
+        background-position-y: 27%;
+    }
+
+    .home_bottom_content .left_content {
+        background-size: 58% !important;
+        background-position-x: 55% !important;
+        height: 200px;
+    }
+
+    .home .home_bottom_content .follow_us {
+        margin-top: 25px !important;
+        -webkit-box-align: baseline !important;
+        -ms-flex-align: baseline !important;
+        align-items: baseline !important;
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+    }
+
+    .home .home_bottom_content .follow_us .follow_us_left {
+        width: 45% !important;
+    }
+
+    .home .home_bottom_content .left_content .bottom_logo {
+        margin-bottom: 0;
+    }
+
+    .home .home_bottom_content .left_content .bottom_logo img {
+        width: 26vmin !important;
+    }
+
+    .home .home_bottom_content .left_content img.smallring {
+        width: 13vmin;
+        right: 0;
+        bottom: 24%;
+    }
+
+    .home .home_bottom_content .left_content img.bigRing {
+        width: 20vmin;
+        right: 11px;
+        bottom: -3px;
+    }
+
+    .home .home_bottom_content .follow_us ul.left_ul li {
+        line-height: 4.3vw;
+    }
+
+    .home .home_bottom_content .follow_us ul.left_ul a {
+        font-size: 3vw;
+    }
+
+    .home .home_bottom_content .follow_us ul.right_ul .follow_title {
+        font-size: 4vw;
+    }
+
+    .home .home_bottom_content .follow_us ul.right_ul a {
+        font-size: 6vw;
+    }
+
+    .home .home_bottom_content .hotline {
+        /* margin-bottom: 30px; */
+    }
+
+    .home_bottom_content .hotline {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .home_bottom_content .hotline h5 {
+        font-size: 4vmin !important;
+    }
+
+    .home_bottom_content .hotline .hotline_badge h5 {
+        font-size: 15px !important;
+    }
+
+    .home_bottom_content .copyright {
+        margin-top: 20px;
+    }
+
+    .home_bottom_content .logo_nd_copyRight img {
+        width: 85px !important;
+    }
+
+    .home_bottom_content .copyright h5 {
+        font-size: 17px !important;
+    }
+
+    /* END INDEX ========================================*/
+
+    /* =========================== START ABOUT US*/
+    .home_main_content .provide {
+        margin-top: 10px !important;
+    }
+
+    .best_car {
+        margin-top: 20px !important;
+    }
+
+    .best_car h3 {
+        font-size: 3vmin !important;
+    }
+
+    .home_main_content .provide .provide_right img:last-of-type {
+        top: 10% !important;
+        right: 5% !important;
+        width: 49% !important;
+    }
+
+    .home_main_content .provide .provide_left {
+        width: 100%;
+    }
+
+    .home_main_content .provide .provide_left h4,
+    .home_main_content .best_car .best_car_left h4 {
+        font-size: 6vmin !important;
+    }
+
+    .home_main_content .provide .provide_left h4 span,
+    .home_main_content .best_car .best_car_left h4 span {
+        display: inline-block !important;
+        font-size: 8vmin !important;
+    }
+
+    .home_main_content .provide .provide_left img {
+        position: absolute;
+        top: -12px;
+        right: -5vmin !important;
+        width: 11vmin !important;
+    }
+
+    .home_bottom_content {
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .about_accordion {
+        margin-top: 51px !important;
+    }
+
+    .about_us .home_bottom_content .left_content {
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+
+    .home_bottom_content .my_row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    /* =========================== END ABOUT US*/
+
+    /* START SERVICE ====================================*/
+
+    .services .home_bottom_content .hotline {
+        margin-top: 0;
+    }
+
+    .services .home_main_content .best_car img.right_img {
+        top: 26vmin;
+        width: 40vmin;
+    }
+
+    .services .home_main_content .best_car img.service_banner {
+        width: 87vmin;
+        position: static;
+    }
+
+    .services .about_accordion {
+        margin-top: 17px !important;
+    }
+
+    /* END SERVICE ====================================*/
+
+    /*======================================= START QUOTE*/
+    .quote .fill_form {
+        margin-top: 25px;
+    }
+
+    .quote .fill_form .fill_form_left h1 {
+        font-size: 40px;
+    }
+
+    .quote .fill_form .fill_form_left .soon {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .quote .fill_form .fill_form_left .soon h5 {
+        font-size: 17px;
+    }
+
+    .quote .fill_form .fill_form_left .soon h5 span {
+        display: inline-block !important;
+        font-size: 17px;
+    }
+
+    .quote .fill_form .fill_form_right img {
+        position: static;
+    }
+
+    .quote .main_quote_form {
+        margin-top: 55px;
+    }
+
+    .quote .main_quote_form .form-group {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .quote .main_quote_form .form-group input,
+    .quote .main_quote_form .form-group select {
+        width: 100%;
+    }
+
+    .quote .main_quote_form .custom_btn {
+        right: 0;
+        left: 15px;
+        width: 93%;
+    }
+
+    .quote .main_quote_form .screws {
+        margin-top: 95px;
+    }
+
+    .quote .main_quote_form .screws img:first-of-type {
+        top: 40%;
+        left: 6%;
+        width: 120px;
+    }
+
+    .quote .main_quote_form .screws img:last-of-type {
+        bottom: 0;
+        width: 70px;
+    }
+
+    .home_bottom_content .hotline {
+        margin-top: 0;
+    }
+
+    .quote .home_bottom_content .left_right {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 45vh;
+    }
+
+    /*======================================= END QUOTE*/
+
+    /* START CONTACT US ===================================*/
+    .contact_us .contact_map {
+        top: 56% !important;
+        left: 50% !important;
+        width: 52vw !important;
+        height: 52vw !important;
+    }
+
+    .contact_us .contact_us_content .contact_left_map {
+        height: 81vmin;
+    }
+
+    .contact_us .contact_us_content .contact_left_map .big_ring {
+        margin: 50px auto 0;
+        background-position: top center !important;
+        background-size: 100% !important;
+    }
+
+    .contact_us .contact_left_map img.orange_ring {
+        right: 19% !important;
+        bottom: -29% !important;
+        width: 105px !important;
+    }
+
+    .contact_us .hotline {
+        margin-top: 160px !important;
+        width: 100%;
+    }
+
+    .contact_us .hotline h5 {
+        font-size: 4vw;
+    }
+
+    .txt_smal_device {
+        text-align: left !important;
+        padding: 0;
+    }
+
+    .contact_us .phone_nbr h3 {
+        font-size: 5vmin !important;
+    }
+
+    .contact_us .contact_left_content ul li {
+        font-size: 5vw;
+    }
+
+    .contact_us .contact_left_content ul li a {
+        font-size: 6vw;
+    }
+
+    .contact_us .contact_left_content .noPadding {
+        padding: 0;
+    }
+
+    .contact_us .contact_left_content .follow_us_right {
+        margin-left: 0 !important;
+    }
+
+    .contact_us .our_mechanics {
+        margin-top: 10px !important;
+    }
+
+    .contact_us .our_mechanics .our_mechanics_left h4 {
+        font-size: 8vmin !important;
+        line-height: 1;
+    }
+
+    .contact_us .our_mechanics .our_mechanics_left h4 span {
+        display: inline-block !important;
+        font-size: 8vmin !important;
+    }
+
+    .contact_us .our_mechanics .our_mechanics_right img {
+        top: -8px !important;
+        right: 0 !important;
+        width: 57vmin !important;
+    }
+
+    .contact_us .home_main_content {
+        height: 110vmin;
+    }
+
+    .contact_us .home_main_content img.scDriver {
+        display: none;
+    }
+
+    .contact_us .contact_footer .change_dir {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .contact_us .contact_footer {
+        margin-top: 0;
+    }
+
+    .contact_us .contact_footer ul {
+        padding-left: 0 !important;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+    }
+
+    .contact_us .contact_footer ul li:not(:last-child) {
+        margin-right: 4vmin !important;
+        width: 33%;
+        text-align: center;
+    }
+
+    .contact_us .contact_footer ul li img {
+        vertical-align: super;
+        width: 20vmin !important;
+    }
+
+    .contact_us .contact_footer ul li h4 {
+        font-size: 4vw;
+    }
+
+    .contact_us .contact_footer ul li span {
+        margin-left: 7vmin;
+        vertical-align: top;
+        font-size: 4vmin;
+    }
+
+    .contact_us .contact_footer .copyright h5,
+    .contact_us .contact_footer .copyright h6 {
+        font-size: 4vmin;
+    }
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {}
+
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+
+    .right_navbar_content {
+        width: 353px !important;
+    }
+
+    ul.links_list {
+        margin-left: 8vmin !important;
+    }
+
+    .our_phones {
+        width: 143vmin;
+    }
+
+    .home_main_content .provide .provide_left h4 {
+        font-size: 8vmin;
+    }
+
+    .home_main_content .provide .provide_left h4 span {
+        font-size: 9vmin;
+    }
+
+    .best_car h3 {
+        font-size: 3vmin !important;
+    }
+
+    .home_main_content .provide .provide_right img:last-of-type {
+        right: 0;
+        width: 60vmin;
+    }
+
+    .home_bottom_content .hotline .hotline_badge h5 {
+        font-size: 20px;
+    }
+
+    /* quote*/
+    .quote .fill_form .fill_form_left h1 {
+        font-size: 10vmin;
+    }
+
+    .quote .main_quote_form .screws img:first-of-type {
+        width: 21vmin;
+        left: 35vmin;
+        top: 18vmin;
+    }
+
+    .quote .main_quote_form .screws img:last-of-type {
+        width: 13vmin;
+        right: 56vmin;
+        bottom: -38vmin;
+    }
+
+    .quote .home_bottom_content .left_right {
+        margin-top: 48vmin;
+    }
+
+}
+
+/*====================================END======================================*/
